@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <div class="card">
+    <div class="mey">
+        <a href="https://www.accuweather.com" target="_blank">Visit AccuWeather</a>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button>
+        <i class='bx bx-search-alt-2'></i>  
+      </button>
+    </div>
+
+<div class="Weather">
+    <img src="./images/cloud-12345.png" class="weather-icon" alt="weather Icon">
+    <h1 class="temp">22°C</h1>
+   <h2 class="city">New York</h2>
+   <div class="details">
+    <div class="col">
+      <div class="f">
+        <i class='bx bxl-tailwind-css'></i>
+      </div>
+        <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+        </div>
+    </div>
+    <div class="col">
+        <div class="g">
+            <i class='bx bx-wind'></i>
+        </div>
+        <div>
+            <p class="wind">15 km/h</p>
+            <p>wind speed</p>
+        </div>
+    </div>
+   </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
